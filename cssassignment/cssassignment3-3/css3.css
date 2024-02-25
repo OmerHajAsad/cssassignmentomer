@@ -1,0 +1,128 @@
+/* General setup */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+    order: -1; /* Move aside (Top course choices) to the left */
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* Fonts */
+  
+  @font-face p {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  }
+  
+  
+  body {
+    font-family: 'OldStyleFont', sans-serif;
+    font-size: 10px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'OldStyleFont', sans-serif;
+  }
+  
+  /* Styling adjustments for Top course choices */
+  ul {
+    list-style-type: square; /* Adjust the list bullet style as needed */
+    line-height: 1.6;
+  }
+  
+  /* Links */
+  a, a:visited, a:focus, a:hover {
+    color: #a66; /* Adjust the color as needed */
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  
+  a:hover, a:focus {
+    border-bottom: 1px solid #a66; /* Adjust the color as needed */
+  }
+  
+  a:active {
+    /* Add your active state styling */
+  }
+  
+  /* External link icon */
+  a[href^="http"]:not([href*="your-domain.com"])::after {
+    content: url('path-to-your-external-link-icon.png'); /* Add the correct path to your external link icon */
+    margin-left: 5px; /* Adjust the spacing as needed */
+  }
+  
+  /* General text styling */
+  body {
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 2rem; /* Adjust the size as needed */
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  p {
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    text-indent: 20px;
+  }
+  
+  /* Navigation menu */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    display: block;
+    background-color: #f0f0f0; /* Background color for each navigation link box */
+    padding: 10px;
+    border: 1px solid #ccc; /* Border for each navigation link box */
+    margin-bottom: 10px; /* Adjust margin between each navigation link box */
+    text-align: center;
+  }
+  
+  /* Adjust the styles to harmonize with the page */
+  
+  /* End of your code */
+  

@@ -1,0 +1,28 @@
+/* style.css */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.cool-box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  background-color: #ff503c;
+  color: #fff;
+  text-shadow: 1px 1px 1px #ff503c; /* Corrected syntax for white text shadow */
+  border-radius: 10px;
+  border: 1px solid #c0392b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Standard box shadow for a raised look */
+  box-shadow: inset 3px 3px 5px rgba(255, 255, 255, 0.5), inset -3px -3px 5px rgba(0, 0, 0, 0.5); /* Inset box shadows for a 3D look */
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%);
+}
